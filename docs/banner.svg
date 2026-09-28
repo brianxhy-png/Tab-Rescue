@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+<title id="title">Tab Rescue project illustration</title><desc id="desc">A browser tab strip flowing into a saved session card and a restore arrow.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c1228"/><stop offset="1" stop-color="#251d50"/></linearGradient><linearGradient id="accent" x2="1"><stop stop-color="#8174ff"/><stop offset="1" stop-color="#a284ff"/></linearGradient></defs>
+<rect width="1200" height="500" rx="34" fill="url(#bg)"/><circle cx="1040" cy="50" r="240" fill="#554ca8" opacity=".11"/><circle cx="150" cy="470" r="220" fill="#5146b9" opacity=".13"/>
+<text x="74" y="98" font-family="Arial,sans-serif" font-size="48" font-weight="700" fill="#f1efff">Tab Rescue</text>
+<text x="76" y="138" font-family="Arial,sans-serif" font-size="22" fill="#aeb8d9">Save your tabs. Return to your flow.</text>
+<rect x="70" y="200" width="444" height="195" rx="20" fill="#151d39" stroke="#465277" stroke-width="2"/>
+<rect x="88" y="218" width="408" height="35" rx="8" fill="#252e4e"/><circle cx="108" cy="236" r="6" fill="#ff757d"/><circle cx="128" cy="236" r="6" fill="#f7c763"/><circle cx="148" cy="236" r="6" fill="#61d0aa"/>
+<rect x="100" y="273" width="120" height="42" rx="10" fill="#393365"/><rect x="230" y="273" width="120" height="42" rx="10" fill="#393365"/><rect x="360" y="273" width="120" height="42" rx="10" fill="#393365"/>
+<text x="116" y="300" font-family="Arial,sans-serif" font-size="15" fill="#e4e2ff">Research</text><text x="246" y="300" font-family="Arial,sans-serif" font-size="15" fill="#e4e2ff">Docs</text><text x="377" y="300" font-family="Arial,sans-serif" font-size="15" fill="#e4e2ff">Ideas</text>
+<text x="112" y="361" font-family="Arial,sans-serif" font-size="16" fill="#9caaca">Open browser tabs</text>
+<path d="M548 298h94" stroke="#8e80ff" stroke-width="8" stroke-linecap="round"/><path d="m620 276 24 22-24 22" fill="none" stroke="#8e80ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="684" y="191" width="440" height="212" rx="20" fill="#1b2242" stroke="#7568d6" stroke-width="2"/>
+<rect x="705" y="215" width="72" height="72" rx="19" fill="url(#accent)"/><text x="723" y="267" font-family="Arial,sans-serif" font-size="54" fill="#fff">↺</text>
+<text x="800" y="246" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#f1efff">Research session</text><text x="800" y="274" font-family="Arial,sans-serif" font-size="16" fill="#adb8d8">3 tabs · Saved locally</text>
+<rect x="709" y="319" width="168" height="48" rx="10" fill="#7569f3"/><text x="746" y="349" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="white">Restore tabs</text>
+<text x="908" y="349" font-family="Arial,sans-serif" font-size="17" fill="#aeb8d9">Anytime you need.</text>
+</svg>

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tab Rescue</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand"><span class="brand-mark" aria-hidden="true">↺</span><div><h1>Tab Rescue</h1><p>Your tabs, ready when you need them.</p></div></div>
+      <span class="local-badge">LOCAL ONLY</span>
+    </header>
+    <section class="hero" aria-labelledby="save-heading">
+      <div><h2 id="save-heading">Save this window</h2><p>Keep a snapshot of your open web tabs.</p></div>
+      <label class="sr-only" for="session-title">Session name</label>
+      <input id="session-title" maxlength="100" placeholder="Give this session a name">
+      <button id="save" class="primary">Save tabs <span aria-hidden="true">↗</span></button>
+    </section>
+    <section class="library" aria-labelledby="library-heading">
+      <div class="section-heading"><div><h2 id="library-heading">Saved sessions</h2><p id="count">Loading…</p></div><button id="export" class="quiet" title="Export backup">Export</button></div>
+      <label class="sr-only" for="search">Search saved sessions</label>
+      <input id="search" type="search" placeholder="Search titles or URLs">
+      <div class="filters" role="group" aria-label="Filter sessions">
+        <button class="chip selected" data-filter="all">All</button>
+        <button class="chip" data-filter="pinned">Pinned</button>
+        <button class="chip" data-filter="automatic">Automatic</button>
+      </div>
+      <div id="sessions" class="sessions"></div>
+    </section>
+    <footer><button id="import" class="quiet">Import backup</button><input id="import-file" type="file" accept="application/json,.json" hidden><span>Auto backup every 15 min</span></footer>
+    <p id="status" role="status" aria-live="polite"></p>
+  </main>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
